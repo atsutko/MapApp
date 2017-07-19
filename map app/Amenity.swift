@@ -19,6 +19,7 @@ class Amenity: NSObject {
     var isGood: String?
     var image: UIImage?
     
+    
     init(longitude: Double, lantitude: Double, title: String, isGood: String) {
         self.longitude = longitude
         self.lantitude = lantitude
