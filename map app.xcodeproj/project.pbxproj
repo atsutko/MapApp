@@ -155,6 +155,49 @@
 		C1DA2AB41EF660EC003E0DBC /* 街のアイコン2.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DA2AB31EF660EC003E0DBC /* 街のアイコン2.png */; };
 		C1DA2AB61EF665BF003E0DBC /* TurorialMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DA2AB51EF665BF003E0DBC /* TurorialMapViewController.swift */; };
 		C1F4147F1F0F49EB00DC7DC4 /* NCMB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F4147E1F0F49EB00DC7DC4 /* NCMB.framework */; };
+		D38273531F2B2AD4005FB181 /* Button（Facebookログイン）.png in Resources */ = {isa = PBXBuildFile; fileRef = D38273521F2B2AD4005FB181 /* Button（Facebookログイン）.png */; };
+		D38273551F2B2F12005FB181 /* Button（Twitterログイン）.png in Resources */ = {isa = PBXBuildFile; fileRef = D38273541F2B2F12005FB181 /* Button（Twitterログイン）.png */; };
+		D382735B1F2B44C9005FB181 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38273571F2B44C9005FB181 /* TwitterCore.framework */; };
+		D382735C1F2B44C9005FB181 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38273581F2B44C9005FB181 /* TwitterKit.framework */; };
+		D382735D1F2B44C9005FB181 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D38273591F2B44C9005FB181 /* TwitterKitResources.bundle */; };
+		D382735E1F2B44C9005FB181 /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D382735A1F2B44C9005FB181 /* TwitterShareExtensionUIResources.bundle */; };
+		D3AC1CB71F1F77C800BC689B /* Button（ログイン）.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1CB61F1F77C800BC689B /* Button（ログイン）.png */; };
+		D3AC1CC91F1FD54D00BC689B /* CFBillabong-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1CC81F1FD54D00BC689B /* CFBillabong-Regular.ttf */; };
+		D3AC1CCB1F1FD77A00BC689B /* Button（新規登録）.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1CCA1F1FD77A00BC689B /* Button（新規登録）.png */; };
+		D3AC1CD51F1FDBA300BC689B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC1CD41F1FDBA300BC689B /* Bolts.framework */; };
+		D3AC1CD91F1FDBB100BC689B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC1CD71F1FDBB100BC689B /* FBSDKLoginKit.framework */; };
+		D3AC1CDB1F1FDBBB00BC689B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC1CDA1F1FDBBB00BC689B /* FBSDKShareKit.framework */; };
+		D3AC1CDD1F1FE42500BC689B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC1CDC1F1FE42500BC689B /* FBSDKCoreKit.framework */; };
+		D3AC1CDF1F22021100BC689B /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1CDE1F22021100BC689B /* Billabong.ttf */; };
+		D3AC1D351F2207BB00BC689B /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D1A1F2207BB00BC689B /* Contents.json */; };
+		D3AC1D361F2207BB00BC689B /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D1B1F2207BB00BC689B /* Icon-App-20x20@1x.png */; };
+		D3AC1D371F2207BB00BC689B /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D1C1F2207BB00BC689B /* Icon-App-20x20@2x.png */; };
+		D3AC1D381F2207BB00BC689B /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D1D1F2207BB00BC689B /* Icon-App-20x20@3x.png */; };
+		D3AC1D391F2207BB00BC689B /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D1E1F2207BB00BC689B /* Icon-App-29x29@1x.png */; };
+		D3AC1D3A1F2207BB00BC689B /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D1F1F2207BB00BC689B /* Icon-App-29x29@2x.png */; };
+		D3AC1D3B1F2207BB00BC689B /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D201F2207BB00BC689B /* Icon-App-29x29@3x.png */; };
+		D3AC1D3C1F2207BB00BC689B /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D211F2207BB00BC689B /* Icon-App-40x40@1x.png */; };
+		D3AC1D3D1F2207BB00BC689B /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D221F2207BB00BC689B /* Icon-App-40x40@2x.png */; };
+		D3AC1D3E1F2207BB00BC689B /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D231F2207BB00BC689B /* Icon-App-40x40@3x.png */; };
+		D3AC1D3F1F2207BB00BC689B /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D241F2207BB00BC689B /* Icon-App-57x57@1x.png */; };
+		D3AC1D401F2207BB00BC689B /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D251F2207BB00BC689B /* Icon-App-57x57@2x.png */; };
+		D3AC1D411F2207BB00BC689B /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D261F2207BB00BC689B /* Icon-App-60x60@1x.png */; };
+		D3AC1D421F2207BB00BC689B /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D271F2207BB00BC689B /* Icon-App-60x60@2x.png */; };
+		D3AC1D431F2207BB00BC689B /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D281F2207BB00BC689B /* Icon-App-60x60@3x.png */; };
+		D3AC1D441F2207BB00BC689B /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D291F2207BB00BC689B /* Icon-App-72x72@1x.png */; };
+		D3AC1D451F2207BB00BC689B /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D2A1F2207BB00BC689B /* Icon-App-72x72@2x.png */; };
+		D3AC1D461F2207BB00BC689B /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D2B1F2207BB00BC689B /* Icon-App-76x76@1x.png */; };
+		D3AC1D471F2207BB00BC689B /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D2C1F2207BB00BC689B /* Icon-App-76x76@2x.png */; };
+		D3AC1D481F2207BB00BC689B /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D2D1F2207BB00BC689B /* Icon-App-76x76@3x.png */; };
+		D3AC1D491F2207BB00BC689B /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D2E1F2207BB00BC689B /* Icon-App-83.5x83.5@2x.png */; };
+		D3AC1D4A1F2207BB00BC689B /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D2F1F2207BB00BC689B /* Icon-Small-50x50@1x.png */; };
+		D3AC1D4B1F2207BB00BC689B /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D301F2207BB00BC689B /* Icon-Small-50x50@2x.png */; };
+		D3AC1D4C1F2207BB00BC689B /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D311F2207BB00BC689B /* iTunesArtwork@1x.png */; };
+		D3AC1D4D1F2207BB00BC689B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D321F2207BB00BC689B /* iTunesArtwork@2x.png */; };
+		D3AC1D4E1F2207BB00BC689B /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D331F2207BB00BC689B /* iTunesArtwork@3x.png */; };
+		D3AC1D4F1F2207BB00BC689B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D3AC1D341F2207BB00BC689B /* README.md */; };
+		D3AC1D511F221F3800BC689B /* Button（ログインVer2）.png in Resources */ = {isa = PBXBuildFile; fileRef = D3AC1D501F221F3800BC689B /* Button（ログインVer2）.png */; };
+		D3AC1D531F2266CD00BC689B /* MapTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AC1D521F2266CD00BC689B /* MapTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -311,6 +354,49 @@
 		C1DA2AB31EF660EC003E0DBC /* 街のアイコン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "街のアイコン2.png"; sourceTree = "<group>"; };
 		C1DA2AB51EF665BF003E0DBC /* TurorialMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurorialMapViewController.swift; sourceTree = "<group>"; };
 		C1F4147E1F0F49EB00DC7DC4 /* NCMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NCMB.framework; path = "../../Library/Developer/Xcode/DerivedData/map_app-fgfxktczluvdphctonsezzycebbw/Build/Products/Debug-iphoneos/NCMB/NCMB.framework"; sourceTree = "<group>"; };
+		D38273521F2B2AD4005FB181 /* Button（Facebookログイン）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（Facebookログイン）.png"; sourceTree = "<group>"; };
+		D38273541F2B2F12005FB181 /* Button（Twitterログイン）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（Twitterログイン）.png"; sourceTree = "<group>"; };
+		D38273571F2B44C9005FB181 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		D38273581F2B44C9005FB181 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		D38273591F2B44C9005FB181 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
+		D382735A1F2B44C9005FB181 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		D3AC1CB61F1F77C800BC689B /* Button（ログイン）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（ログイン）.png"; sourceTree = "<group>"; };
+		D3AC1CC81F1FD54D00BC689B /* CFBillabong-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CFBillabong-Regular.ttf"; sourceTree = "<group>"; };
+		D3AC1CCA1F1FD77A00BC689B /* Button（新規登録）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（新規登録）.png"; sourceTree = "<group>"; };
+		D3AC1CD41F1FDBA300BC689B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D3AC1CD71F1FDBB100BC689B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		D3AC1CDA1F1FDBBB00BC689B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		D3AC1CDC1F1FE42500BC689B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		D3AC1CDE1F22021100BC689B /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		D3AC1D1A1F2207BB00BC689B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		D3AC1D1B1F2207BB00BC689B /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		D3AC1D1C1F2207BB00BC689B /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		D3AC1D1D1F2207BB00BC689B /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		D3AC1D1E1F2207BB00BC689B /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		D3AC1D1F1F2207BB00BC689B /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		D3AC1D201F2207BB00BC689B /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		D3AC1D211F2207BB00BC689B /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		D3AC1D221F2207BB00BC689B /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		D3AC1D231F2207BB00BC689B /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		D3AC1D241F2207BB00BC689B /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		D3AC1D251F2207BB00BC689B /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		D3AC1D261F2207BB00BC689B /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		D3AC1D271F2207BB00BC689B /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		D3AC1D281F2207BB00BC689B /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		D3AC1D291F2207BB00BC689B /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		D3AC1D2A1F2207BB00BC689B /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		D3AC1D2B1F2207BB00BC689B /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		D3AC1D2C1F2207BB00BC689B /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		D3AC1D2D1F2207BB00BC689B /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		D3AC1D2E1F2207BB00BC689B /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		D3AC1D2F1F2207BB00BC689B /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		D3AC1D301F2207BB00BC689B /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		D3AC1D311F2207BB00BC689B /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		D3AC1D321F2207BB00BC689B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		D3AC1D331F2207BB00BC689B /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		D3AC1D341F2207BB00BC689B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3AC1D501F221F3800BC689B /* Button（ログインVer2）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（ログインVer2）.png"; sourceTree = "<group>"; };
+		D3AC1D521F2266CD00BC689B /* MapTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -321,7 +407,13 @@
 				C1F4147F1F0F49EB00DC7DC4 /* NCMB.framework in Frameworks */,
 				C1276D331ECA85A500FA0364 /* MapKit.framework in Frameworks */,
 				C13F62F31EC802F30089B826 /* Foundation.framework in Frameworks */,
+				D3AC1CD51F1FDBA300BC689B /* Bolts.framework in Frameworks */,
+				D3AC1CDB1F1FDBBB00BC689B /* FBSDKShareKit.framework in Frameworks */,
+				D382735C1F2B44C9005FB181 /* TwitterKit.framework in Frameworks */,
+				D382735B1F2B44C9005FB181 /* TwitterCore.framework in Frameworks */,
 				C13F62EF1EC802CA0089B826 /* CoreLocation.framework in Frameworks */,
+				D3AC1CD91F1FDBB100BC689B /* FBSDKLoginKit.framework in Frameworks */,
+				D3AC1CDD1F1FE42500BC689B /* FBSDKCoreKit.framework in Frameworks */,
 				AD58C022A150470EA74E2D30 /* Pods_map_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +456,7 @@
 				C18D951C1F03BF3C0007F7C3 /* 3.5inch.storyboard */,
 				C129CAD41F1383CD009909F8 /* SignIn.storyboard */,
 				7AFF577E1ED047500043521F /* ReactionButton.swift */,
+				D3AC1D521F2266CD00BC689B /* MapTabBarController.swift */,
 				C129CB131F149FEF009909F8 /* MapSearchBar.swift */,
 				7AA761F61ED779FB005159B2 /* TutorialView.swift */,
 				7AA761F81ED77A43005159B2 /* TutorialView.xib */,
@@ -397,6 +490,7 @@
 		7AFF577C1ED046D80043521F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D3AC1D181F2207BB00BC689B /* AmenityMapIconVer9 */,
 				D38C6DE91F1F56FF00C7BE17 /* photoshopAsset */,
 				C129CAE21F13A0DD009909F8 /* AmenityMapAppIcon.appiconset */,
 				C1276CF31EC8250F00FA0364 /* customFont */,
@@ -505,6 +599,8 @@
 				C1276D061EC827F700FA0364 /* Times New Roman Bold.ttf */,
 				C1276D071EC827FC00FA0364 /* Times New Roman Italic.ttf */,
 				C1276D081EC8281900FA0364 /* ヒラギノ丸ゴ ProN W4.ttc */,
+				D3AC1CC81F1FD54D00BC689B /* CFBillabong-Regular.ttf */,
+				D3AC1CDE1F22021100BC689B /* Billabong.ttf */,
 			);
 			name = customFont;
 			sourceTree = "<group>";
@@ -570,7 +666,12 @@
 		C13F62ED1EC802C90089B826 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D38273561F2B44C9005FB181 /* TwitterKitManual */,
+				D3AC1CD41F1FDBA300BC689B /* Bolts.framework */,
 				C1F4147E1F0F49EB00DC7DC4 /* NCMB.framework */,
+				D3AC1CDC1F1FE42500BC689B /* FBSDKCoreKit.framework */,
+				D3AC1CDA1F1FDBBB00BC689B /* FBSDKShareKit.framework */,
+				D3AC1CD71F1FDBB100BC689B /* FBSDKLoginKit.framework */,
 				C1276D321ECA85A500FA0364 /* MapKit.framework */,
 				C13F62F21EC802F30089B826 /* Foundation.framework */,
 				C13F62F01EC802EB0089B826 /* UIKit.framework */,
@@ -609,11 +710,69 @@
 			path = Defaults;
 			sourceTree = "<group>";
 		};
+		D38273561F2B44C9005FB181 /* TwitterKitManual */ = {
+			isa = PBXGroup;
+			children = (
+				D38273571F2B44C9005FB181 /* TwitterCore.framework */,
+				D38273581F2B44C9005FB181 /* TwitterKit.framework */,
+				D38273591F2B44C9005FB181 /* TwitterKitResources.bundle */,
+				D382735A1F2B44C9005FB181 /* TwitterShareExtensionUIResources.bundle */,
+			);
+			path = TwitterKitManual;
+			sourceTree = "<group>";
+		};
 		D38C6DE91F1F56FF00C7BE17 /* photoshopAsset */ = {
 			isa = PBXGroup;
 			children = (
+				D3AC1CCA1F1FD77A00BC689B /* Button（新規登録）.png */,
+				D3AC1CB61F1F77C800BC689B /* Button（ログイン）.png */,
+				D3AC1D501F221F3800BC689B /* Button（ログインVer2）.png */,
+				D38273521F2B2AD4005FB181 /* Button（Facebookログイン）.png */,
+				D38273541F2B2F12005FB181 /* Button（Twitterログイン）.png */,
 			);
 			name = photoshopAsset;
+			sourceTree = "<group>";
+		};
+		D3AC1D181F2207BB00BC689B /* AmenityMapIconVer9 */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC1D191F2207BB00BC689B /* AppIcon.appiconset */,
+				D3AC1D311F2207BB00BC689B /* iTunesArtwork@1x.png */,
+				D3AC1D321F2207BB00BC689B /* iTunesArtwork@2x.png */,
+				D3AC1D331F2207BB00BC689B /* iTunesArtwork@3x.png */,
+				D3AC1D341F2207BB00BC689B /* README.md */,
+			);
+			path = AmenityMapIconVer9;
+			sourceTree = "<group>";
+		};
+		D3AC1D191F2207BB00BC689B /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				D3AC1D1A1F2207BB00BC689B /* Contents.json */,
+				D3AC1D1B1F2207BB00BC689B /* Icon-App-20x20@1x.png */,
+				D3AC1D1C1F2207BB00BC689B /* Icon-App-20x20@2x.png */,
+				D3AC1D1D1F2207BB00BC689B /* Icon-App-20x20@3x.png */,
+				D3AC1D1E1F2207BB00BC689B /* Icon-App-29x29@1x.png */,
+				D3AC1D1F1F2207BB00BC689B /* Icon-App-29x29@2x.png */,
+				D3AC1D201F2207BB00BC689B /* Icon-App-29x29@3x.png */,
+				D3AC1D211F2207BB00BC689B /* Icon-App-40x40@1x.png */,
+				D3AC1D221F2207BB00BC689B /* Icon-App-40x40@2x.png */,
+				D3AC1D231F2207BB00BC689B /* Icon-App-40x40@3x.png */,
+				D3AC1D241F2207BB00BC689B /* Icon-App-57x57@1x.png */,
+				D3AC1D251F2207BB00BC689B /* Icon-App-57x57@2x.png */,
+				D3AC1D261F2207BB00BC689B /* Icon-App-60x60@1x.png */,
+				D3AC1D271F2207BB00BC689B /* Icon-App-60x60@2x.png */,
+				D3AC1D281F2207BB00BC689B /* Icon-App-60x60@3x.png */,
+				D3AC1D291F2207BB00BC689B /* Icon-App-72x72@1x.png */,
+				D3AC1D2A1F2207BB00BC689B /* Icon-App-72x72@2x.png */,
+				D3AC1D2B1F2207BB00BC689B /* Icon-App-76x76@1x.png */,
+				D3AC1D2C1F2207BB00BC689B /* Icon-App-76x76@2x.png */,
+				D3AC1D2D1F2207BB00BC689B /* Icon-App-76x76@3x.png */,
+				D3AC1D2E1F2207BB00BC689B /* Icon-App-83.5x83.5@2x.png */,
+				D3AC1D2F1F2207BB00BC689B /* Icon-Small-50x50@1x.png */,
+				D3AC1D301F2207BB00BC689B /* Icon-Small-50x50@2x.png */,
+			);
+			path = AppIcon.appiconset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -679,10 +838,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3AC1D511F221F3800BC689B /* Button（ログインVer2）.png in Resources */,
 				C116FB891ED80FCA00AD72C5 /* camera.jpg in Resources */,
 				C18D95051F0383A10007F7C3 /* RoadImage.jpg in Resources */,
 				7AA761FF1ED77CEB005159B2 /* long_press@2x.png in Resources */,
 				C116FB871ED805E000AD72C5 /* アメニティマップ２.jpg in Resources */,
+				D3AC1D3B1F2207BB00BC689B /* Icon-App-29x29@3x.png in Resources */,
 				C129CB071F13A0DD009909F8 /* Icon-App-60x60@2x.png in Resources */,
 				C11D39211F1BC13800263342 /* MapTutorialScreenNo4.png in Resources */,
 				C11D391F1F1BC13200263342 /* MapTutorialScreenNo3.png in Resources */,
@@ -692,26 +853,38 @@
 				C122F44E1EF4FB46006FBC64 /* BanArea.png in Resources */,
 				C129CAFF1F13A0DD009909F8 /* Icon-App-29x29@2x.png in Resources */,
 				C116FB851ED805AF00AD72C5 /* アメニティマップ.jpg in Resources */,
+				D3AC1CB71F1F77C800BC689B /* Button（ログイン）.png in Resources */,
 				C116E2111ED89BC000C32ED1 /* BadImage.jpg in Resources */,
 				C18D95091F0387540007F7C3 /* AmenityViewController.PNG in Resources */,
+				D38273551F2B2F12005FB181 /* Button（Twitterログイン）.png in Resources */,
 				C179EC071EF8E58100918B39 /* MapPinIconOrange.png in Resources */,
 				C129CB0C1F13A0DD009909F8 /* Icon-App-76x76@2x.png in Resources */,
 				C1276D091EC8282B00FA0364 /* Arial.ttf in Resources */,
 				C179EC051EF8E58100918B39 /* AmenityMapApp.png in Resources */,
 				C1276D0A1EC8282B00FA0364 /* Arial Bold.ttf in Resources */,
+				D3AC1D441F2207BB00BC689B /* Icon-App-72x72@1x.png in Resources */,
+				D382735D1F2B44C9005FB181 /* TwitterKitResources.bundle in Resources */,
 				C129CB0B1F13A0DD009909F8 /* Icon-App-76x76@1x.png in Resources */,
+				D3AC1D381F2207BB00BC689B /* Icon-App-20x20@3x.png in Resources */,
 				C18D951D1F03BF3C0007F7C3 /* 3.5inch.storyboard in Resources */,
 				C1DA2AAF1EF6574D003E0DBC /* 押しピンのフリーアイコン1.png in Resources */,
 				C129CB091F13A0DD009909F8 /* Icon-App-72x72@1x.png in Resources */,
 				C129CAFB1F13A0DD009909F8 /* Icon-App-20x20@1x.png in Resources */,
 				C1276D0B1EC8282B00FA0364 /* Arial Italic.ttf in Resources */,
 				C18D950A1F0387540007F7C3 /* TableViewDelete.PNG in Resources */,
+				D3AC1D4B1F2207BB00BC689B /* Icon-Small-50x50@2x.png in Resources */,
+				D3AC1D411F2207BB00BC689B /* Icon-App-60x60@1x.png in Resources */,
+				D3AC1CC91F1FD54D00BC689B /* CFBillabong-Regular.ttf in Resources */,
 				C129CB0D1F13A0DD009909F8 /* Icon-App-76x76@3x.png in Resources */,
 				C179EC0E1EF8EDBF00918B39 /* Direction1.png in Resources */,
+				D3AC1D4D1F2207BB00BC689B /* iTunesArtwork@2x.png in Resources */,
 				7AA761EC1ED76932005159B2 /* location_icon@2x.png in Resources */,
+				D3AC1D3F1F2207BB00BC689B /* Icon-App-57x57@1x.png in Resources */,
 				C1276D0C1EC8282B00FA0364 /* DIN Alternate Bold.ttf in Resources */,
+				D3AC1D391F2207BB00BC689B /* Icon-App-29x29@1x.png in Resources */,
 				C1276D0E1EC8282B00FA0364 /* Times New Roman.ttf in Resources */,
 				C11D391B1F1BC12800263342 /* MapTutorialScreen.png in Resources */,
+				D3AC1D4A1F2207BB00BC689B /* Icon-Small-50x50@1x.png in Resources */,
 				C129CB011F13A0DD009909F8 /* Icon-App-40x40@1x.png in Resources */,
 				C18D95191F03BEA20007F7C3 /* Default-736h@3x.png in Resources */,
 				C129CB001F13A0DD009909F8 /* Icon-App-29x29@3x.png in Resources */,
@@ -727,8 +900,11 @@
 				C179EC081EF8E58100918B39 /* MapPinIconBlue.png in Resources */,
 				C1DA2AB41EF660EC003E0DBC /* 街のアイコン2.png in Resources */,
 				C116E20F1ED89AA300C32ED1 /* red_flag_48px_501173_easyicon.net.png in Resources */,
+				D3AC1D421F2207BB00BC689B /* Icon-App-60x60@2x.png in Resources */,
 				C1276D111EC8282B00FA0364 /* ヒラギノ丸ゴ ProN W4.ttc in Resources */,
+				D3AC1D361F2207BB00BC689B /* Icon-App-20x20@1x.png in Resources */,
 				C11474541ED8160A00844329 /* album.jpg in Resources */,
+				D3AC1D3E1F2207BB00BC689B /* Icon-App-40x40@3x.png in Resources */,
 				C179EC131EF8F4E100918B39 /* WiFiIcon.png in Resources */,
 				C129CAD51F1383CD009909F8 /* SignIn.storyboard in Resources */,
 				C179EC091EF8E58100918B39 /* MapPinIconRed.png in Resources */,
@@ -737,7 +913,10 @@
 				C179EBFD1EF8DD4600918B39 /* ToiletteIcon.png in Resources */,
 				7AA761F51ED774FD005159B2 /* reload_button@2x.png in Resources */,
 				C122F44C1EF4FB3E006FBC64 /* BeautifulFlower.jpg in Resources */,
+				D3AC1D4E1F2207BB00BC689B /* iTunesArtwork@3x.png in Resources */,
+				D3AC1D471F2207BB00BC689B /* Icon-App-76x76@2x.png in Resources */,
 				C129CAFC1F13A0DD009909F8 /* Icon-App-20x20@2x.png in Resources */,
+				D3AC1D4C1F2207BB00BC689B /* iTunesArtwork@1x.png in Resources */,
 				C179EC1A1EFA304200918B39 /* Wi-FiBlue.png in Resources */,
 				C129CB161F15FC60009909F8 /* LaunchScreenBackImage.png in Resources */,
 				7AA761FD1ED77BC5005159B2 /* map_sample@2x.jpg in Resources */,
@@ -756,19 +935,25 @@
 				C13F63141EC809F20089B826 /* Autumn.JPG in Resources */,
 				C129CB0A1F13A0DD009909F8 /* Icon-App-72x72@2x.png in Resources */,
 				7AA761E51ED75B9E005159B2 /* bad@2x.png in Resources */,
+				D3AC1D351F2207BB00BC689B /* Contents.json in Resources */,
+				D38273531F2B2AD4005FB181 /* Button（Facebookログイン）.png in Resources */,
 				7AA761EE1ED769EE005159B2 /* memo@2x.png in Resources */,
 				C1DA2AB01EF6574D003E0DBC /* 爆弾のフリー素材3.png in Resources */,
 				C13F63001EC808E50089B826 /* 寒霞渓.JPG in Resources */,
 				C116E20E1ED89AA300C32ED1 /* flag_blue_48px_1133981_easyicon.net.png in Resources */,
 				C11474561ED85FE000844329 /* あっちゃん.JPG in Resources */,
+				D3AC1D481F2207BB00BC689B /* Icon-App-76x76@3x.png in Resources */,
 				C129CB041F13A0DD009909F8 /* Icon-App-57x57@1x.png in Resources */,
 				C1505D3C1EEF89390065599C /* 王冠.png in Resources */,
 				C179EC121EF8F4E100918B39 /* BicycleIcon.png in Resources */,
+				D3AC1D3D1F2207BB00BC689B /* Icon-App-40x40@2x.png in Resources */,
 				C129CB051F13A0DD009909F8 /* Icon-App-57x57@2x.png in Resources */,
 				C179EBF91EF8C49800918B39 /* 目的地アイコン2.png in Resources */,
 				C13F62FA1EC808CC0089B826 /* LouvreMuseum.JPG in Resources */,
 				C129CB081F13A0DD009909F8 /* Icon-App-60x60@3x.png in Resources */,
+				D3AC1D431F2207BB00BC689B /* Icon-App-60x60@3x.png in Resources */,
 				C129CAFA1F13A0DD009909F8 /* Contents.json in Resources */,
+				D3AC1D401F2207BB00BC689B /* Icon-App-57x57@2x.png in Resources */,
 				C13F62F81EC808C60089B826 /* Shanghai.JPG in Resources */,
 				C18D950B1F0387540007F7C3 /* TableView.PNG in Resources */,
 				C132E03B1EA06765007569DC /* Assets.xcassets in Resources */,
@@ -777,26 +962,35 @@
 				C13F63121EC809EE0089B826 /* AmerikaMornig.JPG in Resources */,
 				C1DA2AB21EF6574D003E0DBC /* BegginersMark.png in Resources */,
 				C179EC1D1EFA304C00918B39 /* Toilette.png in Resources */,
+				D3AC1CCB1F1FD77A00BC689B /* Button（新規登録）.png in Resources */,
 				C129CAE11F139E4D009909F8 /* icons8-User-30.png in Resources */,
 				C129CB031F13A0DD009909F8 /* Icon-App-40x40@3x.png in Resources */,
 				C129CB0F1F13A0DD009909F8 /* Icon-Small-50x50@1x.png in Resources */,
+				D3AC1D451F2207BB00BC689B /* Icon-App-72x72@2x.png in Resources */,
 				C122F4441EF4DC64006FBC64 /* ?マーク.png in Resources */,
 				C13F63021EC808E90089B826 /* 岡山.JPG in Resources */,
+				D3AC1D371F2207BB00BC689B /* Icon-App-20x20@2x.png in Resources */,
 				7AA761F01ED7707B005159B2 /* no_image_map@2x.png in Resources */,
 				C122F4551EF50450006FBC64 /* ComforabulIcon.jpg in Resources */,
 				7AA761EA1ED7681D005159B2 /* smile@2x.png in Resources */,
 				C122F4501EF4FC7D006FBC64 /* danger.png in Resources */,
+				D3AC1D491F2207BB00BC689B /* Icon-App-83.5x83.5@2x.png in Resources */,
 				C129CB021F13A0DD009909F8 /* Icon-App-40x40@2x.png in Resources */,
 				C129CAFD1F13A0DD009909F8 /* Icon-App-20x20@3x.png in Resources */,
 				C179EC0B1EF8EDB700918B39 /* Direction3.png in Resources */,
 				C122F4481EF4EBB4006FBC64 /* parisCity.jpg in Resources */,
 				C179EC061EF8E58100918B39 /* MapPinIconPink.png in Resources */,
+				D3AC1D3C1F2207BB00BC689B /* Icon-App-40x40@1x.png in Resources */,
+				D382735E1F2B44C9005FB181 /* TwitterShareExtensionUIResources.bundle in Resources */,
 				C13F63061EC809890089B826 /* 富良野.JPG in Resources */,
+				D3AC1CDF1F22021100BC689B /* Billabong.ttf in Resources */,
 				C122F4561EF50450006FBC64 /* BeautifulIcon.jpeg in Resources */,
 				C132E0391EA06765007569DC /* Main.storyboard in Resources */,
 				C179EBF71EF8C25900918B39 /* TutorialBackGroundImage.png in Resources */,
+				D3AC1D461F2207BB00BC689B /* Icon-App-76x76@1x.png in Resources */,
 				C18D95171F03BEA20007F7C3 /* Default-568h@2x.png in Resources */,
 				C129CADF1F139DD1009909F8 /* icons8-User-50.png in Resources */,
+				D3AC1D3A1F2207BB00BC689B /* Icon-App-29x29@2x.png in Resources */,
 				C179EC211EFA4BCF00918B39 /* consentYellow.png in Resources */,
 				C179EC1B1EFA304200918B39 /* ATMGreen.png in Resources */,
 				7AA761F31ED77149005159B2 /* aogaku_sample@2x.jpg in Resources */,
@@ -859,11 +1053,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA761E21ED587D6005159B2 /* AmenityLocation.swift in Sources */,
+				D3AC1D531F2266CD00BC689B /* MapTabBarController.swift in Sources */,
 				C132E0361EA06765007569DC /* StartViewController.swift in Sources */,
 				C129CB141F149FEF009909F8 /* MapSearchBar.swift in Sources */,
 				C129CADD1F1386EA009909F8 /* UserPageViewController.swift in Sources */,
 				7AA761F71ED779FB005159B2 /* TutorialView.swift in Sources */,
 				C179EC171EFA22F100918B39 /* TutorialDetailViewController.swift in Sources */,
+				D3AC1D4F1F2207BB00BC689B /* README.md in Sources */,
 				7AFF577F1ED047500043521F /* ReactionButton.swift in Sources */,
 				C132E0461EA0684F007569DC /* MapViewController.swift in Sources */,
 				C129CAD91F13843A009909F8 /* SignUpViewController.swift in Sources */,
@@ -997,6 +1193,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3E76788VZ5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TwitterKitManual",
+				);
 				INFOPLIST_FILE = "map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.takao.map-app";
@@ -1013,6 +1214,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3E76788VZ5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/TwitterKitManual",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos10.3]" = (
+					"(FacebookSDK)",
+					"(/Users/atsushitakao/Xcode/FacebookSDK)",
+				);
 				INFOPLIST_FILE = "map app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.takao.map-app";

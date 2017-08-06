@@ -11,6 +11,11 @@ import UIKit
 // NCMBフレームワークの読み込み
 import NCMB
 
+import FacebookCore
+import FacebookLogin
+
+import TwitterKit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -20,8 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+            SDKApplicationDelegate.shared.application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         // Amenity.removeAll()
         NCMB.setApplicationKey("91f1ec8da2860b13ce557b8fe74c16e225fda5b40568c22a19ac347fd306ec97", clientKey: "78a84241ed998939ddd1619cd7483a5591c2a645bf0087671570882b23e6bdf0")
+        Twitter.sharedInstance().start(withConsumerKey:"b0ELmrEIzcgTXWDt9ridhnpBH", consumerSecret:"QyLLK9Jwmocb0IOTy2nasfV5tiQJaESihWYurxBqJZJaEO9eIp")
+
         
       let ud = UserDefaults.standard
         let isLogin = ud.bool(forKey: "isSignIn")
@@ -40,6 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let blackColor = UIColor(red: 5.0/255.0, green: 5.0/255.0, blue: 5.0/255.0, alpha:1)
         let whiteColor = UIColor(red: 246.0/255.0, green: 246.0/255.0, blue: 246.0/255.0, alpha: 1)
         let blueColor = UIColor(red: 49.0/255.0, green: 105.0/255.0, blue: 245.0/255.0, alpha: 1)
+        let greenColor = UIColor(red: 8.0/255.0, green: 150.0/255.0, blue: 9.0/255.0, alpha: 1)
         
         // ① ナビゲーションバーの背景色
         UINavigationBar.appearance().barTintColor = blueColor
@@ -49,9 +59,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // ③ ナビゲーションバー上のアイテムの色
         UINavigationBar.appearance().tintColor = whiteColor
-
+        
+        //self.navigationController?.navigationBar.titleTextAttributes
+         //   = [NSFontAttributeName: UIFont(name: "CFBillabong-Regular", size: 20)!]
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: UIFont(name: "Billabong", size: 25)!]
         
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        //return SDKApplicationDelegate.shared.application(app, open: url, options: options)
+        return Twitter.sharedInstance().application(app, open: url, options: options)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
