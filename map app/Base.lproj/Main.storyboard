@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="52S-nS-uLx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="52S-nS-uLx">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -77,7 +77,7 @@
             </objects>
             <point key="canvasLocation" x="4050" y="-223"/>
         </scene>
-        <!--場所一覧-->
+        <!--Place-->
         <scene sceneID="WaV-4l-ik4">
             <objects>
                 <viewController id="cz0-DQ-5TJ" customClass="TableViewController" customModule="map_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -111,7 +111,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="場所一覧" id="8w7-wq-eMO">
+                    <navigationItem key="navigationItem" title="Place" id="8w7-wq-eMO">
                         <barButtonItem key="backBarButtonItem" title="戻る" id="BYC-eW-MXT"/>
                     </navigationItem>
                     <connections>
@@ -143,7 +143,7 @@
                                 <rect key="frame" x="16" y="358" width="288" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="alert" returnKeyType="done"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Good" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdS-Hi-P6C">
@@ -286,7 +286,7 @@
             </objects>
             <point key="canvasLocation" x="1455" y="-754"/>
         </scene>
-        <!--Amenity Map　使い方-->
+        <!--Help-->
         <scene sceneID="2ll-uP-MXJ">
             <objects>
                 <viewController id="Hln-Ls-exg" customClass="TutorialViewController" customModule="map_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -347,19 +347,18 @@
                                 <color key="textColor" red="0.91273540259999997" green="0.29122611879999999" blue="0.63208055500000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pinをタッチして、説明を見よう！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJe-ju-xPI">
-                                <rect key="frame" x="26" y="87" width="269" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pinをタッチして、説明を見よう！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJe-ju-xPI">
+                                <rect key="frame" x="16" y="87" width="288" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
                                 <color key="textColor" red="0.19020071629999999" green="0.41132408380000002" blue="0.96197193859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YXk-fA-5l3">
-                                <rect key="frame" x="75" y="469" width="165" height="50"/>
+                                <rect key="frame" x="26" y="467" width="269" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19020071629999999" green="0.41132408380000002" blue="0.96197193859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
-                                <state key="normal" title="街に戻る">
+                                <state key="normal" title="街に戻る" backgroundImage="Button（ログイン）.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -369,7 +368,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Amenity Map　使い方" id="zr2-nV-Sum">
+                    <navigationItem key="navigationItem" title="Help" id="zr2-nV-Sum">
                         <barButtonItem key="backBarButtonItem" title="戻る" id="mWY-O7-CeI"/>
                     </navigationItem>
                     <connections>
@@ -542,10 +541,10 @@
             </objects>
             <point key="canvasLocation" x="4826" y="-754"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Map Tab Bar Controller-->
         <scene sceneID="VZH-YW-zan">
             <objects>
-                <tabBarController id="52S-nS-uLx" sceneMemberID="viewController">
+                <tabBarController id="52S-nS-uLx" customClass="MapTabBarController" customModule="map_app" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="h4E-8y-ns5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -600,7 +599,7 @@
             </objects>
             <point key="canvasLocation" x="2319" y="-754"/>
         </scene>
-        <!--マイページ-->
+        <!--My Page-->
         <scene sceneID="SaL-cR-utz">
             <objects>
                 <viewController id="kKV-2W-a2m" customClass="UserPageViewController" customModule="map_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -623,9 +622,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="No1-HR-zD2">
                                 <rect key="frame" x="83" y="441" width="154" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.19020071629999999" green="0.41132408380000002" blue="0.96197193859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Log out">
+                                <state key="normal" title="Log out" backgroundImage="Button（ログイン）.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -672,14 +670,6 @@
                                 <rect key="frame" x="70" y="285" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzx-Aa-hiC">
-                                <rect key="frame" x="70" y="285" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tv-7I-QOz">
                                 <rect key="frame" x="100" y="285" width="196" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -692,7 +682,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="マイページ" id="6TL-Ri-H42"/>
+                    <navigationItem key="navigationItem" title="My Page" id="6TL-Ri-H42"/>
                     <connections>
                         <outlet property="createdDateIconLabel" destination="Yqq-S4-Inl" id="gM5-D4-gRt"/>
                         <outlet property="createdDateLabel" destination="7rX-Pr-4Ie" id="sTn-6m-Lmn"/>
@@ -723,7 +713,7 @@
             </objects>
             <point key="canvasLocation" x="1455" y="1122"/>
         </scene>
-        <!--利用規約&プライバシーポリシー-->
+        <!--Privacy Policy-->
         <scene sceneID="3wI-7e-LZT">
             <objects>
                 <viewController id="vsm-pC-FwG" customClass="RuleViewController" customModule="map_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -753,7 +743,7 @@
                                 <rect key="frame" x="16" y="155" width="288" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">利用規約
+                                <string key="text">利用規約
 
 この利用規約（以下，「本規約」といいます。）は，AmenityMap（以下，「当アプリ」といいます。）がこのウェブサイト上で提供するサービス（以下，「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。
 
@@ -845,7 +835,7 @@
 
 本規約の解釈にあたっては，日本法を準拠法とします。
 本サービスに関して紛争が生じた場合には，当アプリの本店所在地を管轄する裁判所を専属的合意管轄とします。
-以上</mutableString>
+以上</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -853,7 +843,7 @@
                                 <rect key="frame" x="16" y="348" width="288" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">プライバシーポリシー
+                                <string key="text">プライバシーポリシー
 
 AmenityMap（以下，「当社」といいます。）は，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）におけるプライバシー情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。
 
@@ -916,7 +906,7 @@ AmenityMap（以下，「当社」といいます。）は，本ウェブサイ�
 
 本ポリシーに関するお問い合わせは，下記の窓口までお願いいたします。
 
-Eメールアドレス：atsushi.takao.66@gmail.com</mutableString>
+Eメールアドレス：atsushi.takao.66@gmail.com</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -937,7 +927,7 @@ Eメールアドレス：atsushi.takao.66@gmail.com</mutableString>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="利用規約&amp;プライバシーポリシー" id="gKd-9D-AmV"/>
+                    <navigationItem key="navigationItem" title="Privacy Policy" id="gKd-9D-AmV"/>
                     <connections>
                         <outlet property="privacyPolicyLabel" destination="bN5-HQ-5Z1" id="5We-YN-lf3"/>
                         <outlet property="ruleLabel" destination="udM-dW-2nT" id="bGu-mL-WbA"/>
@@ -954,6 +944,7 @@ Eメールアドレス：atsushi.takao.66@gmail.com</mutableString>
         <image name="ATMGreen.png" width="256" height="256"/>
         <image name="AsisMap.jpg" width="390" height="273"/>
         <image name="BicycleIcon.png" width="256" height="256"/>
+        <image name="Button（ログイン）.png" width="282" height="40"/>
         <image name="MapPinIconOrange.png" width="256" height="256"/>
         <image name="MapPinIconPink.png" width="256" height="256"/>
         <image name="MapPinIconRed.png" width="256" height="256"/>

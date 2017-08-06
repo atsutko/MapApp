@@ -10,8 +10,9 @@ import UIKit
 import NCMB
 import FontAwesomeKit
 
+
 // TextFieldプロトコルを追加
-class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewDelegate {
+class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewDelegate{
     
     
     @IBOutlet weak var usernameTextField: UITextField!
@@ -22,7 +23,11 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
     @IBOutlet weak var mailAdressIconLabel: UILabel!
     @IBOutlet weak var passwordIconLabel: UILabel!
     @IBOutlet weak var confirmIconLabel: UILabel!
+    @IBOutlet weak var checkIconLabel: UILabel!
+    @IBOutlet weak var alertLbel: UILabel!
+    @IBOutlet weak var checkAlertLabel: UILabel!
     @IBOutlet weak var scrollView: UIScrollView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +47,10 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
         self.mailAdressIconLabel.attributedText = FAKFontAwesome.envelopeIcon(withSize: 15).attributedString()
         self.passwordIconLabel.attributedText = FAKFontAwesome.keyIcon(withSize: 15).attributedString()
         self.confirmIconLabel.attributedText = FAKFontAwesome.exclamationIcon(withSize: 15).attributedString()
+        
+        checkIconLabel.layer.borderWidth = 0.5
+        checkIconLabel.layer.borderColor = UIColor.black.cgColor
+        
         scrollView.delegate = self
         scrollView.addSubview(usernameTextField)
         scrollView.addSubview(mailAddressTextField)
@@ -58,7 +67,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
         notificationCenter.addObserver(self, selector: #selector(SignUpViewController.handleKeyboardWillHideNotification(_:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -70,14 +79,14 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
         let keyboardScreenEndFrame = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         let myBoundSize: CGSize = UIScreen.main.bounds.size
         
-        var usernameLimit = usernameTextField.frame.origin.y + usernameTextField.frame.height + 8.0
-        var mailAdressLimit = mailAddressTextField.frame.origin.y + mailAddressTextField.frame.height + 8.0
-        var passwordLimit = passwordTextField.frame.origin.y + passwordTextField.frame.height + 8.0
-        var confirmLimit = confirmTextField.frame.origin.y + confirmTextField.frame.height + 8.0
+        let usernameLimit = usernameTextField.frame.origin.y + usernameTextField.frame.height + 8.0
+        let mailAdressLimit = mailAddressTextField.frame.origin.y + mailAddressTextField.frame.height + 8.0
+        let passwordLimit = passwordTextField.frame.origin.y + passwordTextField.frame.height + 8.0
+        let confirmLimit = confirmTextField.frame.origin.y + confirmTextField.frame.height + 8.0
         let kbdLimit = myBoundSize.height - keyboardScreenEndFrame.size.height
         
         
-  
+        
         
         if usernameLimit >= kbdLimit {
             scrollView.contentOffset.y = usernameLimit - kbdLimit
@@ -91,7 +100,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
         if confirmLimit >= kbdLimit{
             scrollView.contentOffset.y = confirmLimit - kbdLimit
         }
-  
+        
         
         
     }
@@ -107,6 +116,14 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
         textField.resignFirstResponder()
         return true
     }
+    
+    @IBAction func checkButtonPush(){
+        self.checkIconLabel.attributedText = FAKFontAwesome.checkIcon(withSize: 17).attributedString()
+        let ud = UserDefaults.standard
+        ud.set(true, forKey: "isCheck")
+        ud.synchronize()
+    }
+    
     
     
     @IBAction func registerUser(_ sender: Any) {
@@ -149,7 +166,15 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewD
                 ud.set(true, forKey: "isSignIn")
                 ud.synchronize()
                 
-                self.performSegue(withIdentifier: "toStartView2", sender: nil)
+                let userDefaults = UserDefaults.standard
+                let isCheck = userDefaults.bool(forKey: "isCheck")
+                
+                if isCheck == false{
+                    self.alertLbel.backgroundColor = UIColor(red: 255, green: 189, blue: 181, alpha: 1.0)
+                    self.checkAlertLabel.text = "※利用規約に同意してください"
+                }else{
+                    self.performSegue(withIdentifier: "toStartView2", sender: nil)
+                }
             }
         }
     }

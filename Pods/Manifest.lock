@@ -1,4 +1,22 @@
 PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.21)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.21)
+    - FBSDKLoginKit (~> 4.21)
+  - FBSDKCoreKit (4.24.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.24.0):
+    - FBSDKCoreKit
   - FontAwesomeKit (2.2.1):
     - FontAwesomeKit/Core (= 2.2.1)
     - FontAwesomeKit/FontAwesome (= 2.2.1)
@@ -21,18 +39,34 @@ PODS:
   - FontAwesomeKit/Zocial (2.2.1):
     - FontAwesomeKit/Core
   - NCMB (2.3.6)
+  - TwitterCore (3.0.0)
+  - TwitterKit (3.0.3):
+    - TwitterCore (>= 3.0.0)
 
 DEPENDENCIES:
+  - FacebookCore (from `https://github.com/facebook/facebook-sdk-swift`)
+  - FacebookLogin (from `https://github.com/facebook/facebook-sdk-swift`)
   - FontAwesomeKit (from `https://github.com/PrideChung/FontAwesomeKit.git`)
   - NCMB (from `https://github.com/NIFTYCloud-mbaas/ncmb_ios.git`)
+  - TwitterKit
 
 EXTERNAL SOURCES:
+  FacebookCore:
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :git: https://github.com/facebook/facebook-sdk-swift
   FontAwesomeKit:
     :git: https://github.com/PrideChung/FontAwesomeKit.git
   NCMB:
     :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
 
 CHECKOUT OPTIONS:
+  FacebookCore:
+    :commit: a09021edf33417153fdf1066275f888c3b59fc6e
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :commit: a09021edf33417153fdf1066275f888c3b59fc6e
+    :git: https://github.com/facebook/facebook-sdk-swift
   FontAwesomeKit:
     :commit: ed5eb02f4bcf76e218bb1c966c551a7b5240b6b4
     :git: https://github.com/PrideChung/FontAwesomeKit.git
@@ -41,9 +75,16 @@ CHECKOUT OPTIONS:
     :git: https://github.com/NIFTYCloud-mbaas/ncmb_ios.git
 
 SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: b1dfb5bba65380aba6dbe5c545ce02d03d0b59b2
+  FacebookLogin: da4d16833831769a6827a4ddfcf439d673949f12
+  FBSDKCoreKit: f8c9eb0dd34a9cd277c7b60da4b32226d142502d
+  FBSDKLoginKit: 1214c6d5a1c4995b694d8db8a9ba6910c6028acf
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
   NCMB: 1b4924db41a522b7971313b4d22fbc0475aefba8
+  TwitterCore: 8ce250be1eb34633a0e6acc89520d4165ec52c10
+  TwitterKit: 202404be71aadd81d19f677b34579fe77d9cb67e
 
-PODFILE CHECKSUM: 3fc3b13ceaf4adc9f681b2639f216564a6895813
+PODFILE CHECKSUM: 38544fa3166f3ab10c6af52fe29da9148faf7a9e
 
 COCOAPODS: 1.2.1

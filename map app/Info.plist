@@ -13,15 +13,37 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>アメとムチ</string>
+	<string>Amenity Map</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>2.0.1</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-b0ELmrEIzcgTXWDt9ridhnpBH</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>2.0.1</string>
+	<key>FacebookAppID</key>
+	<string>125362768075971</string>
+	<key>FacebookDisplayName</key>
+	<string>AmenityMap</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+        <string>twitter</string>
+        <string>twitterauth</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
@@ -29,9 +51,14 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>To use user location</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>To use photo library</string>
+	<string>To use photo function</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CFBillabong-Regular.ttf</string>
+		<string>Billabong.ttf</string>
+	</array>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>SignIn</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
