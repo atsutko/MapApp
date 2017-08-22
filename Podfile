@@ -11,9 +11,10 @@ target 'map app' do
 
     pod 'FontAwesomeKit', :git => 'https://github.com/PrideChung/FontAwesomeKit.git'
 
-	pod ‘FacebookCore’, :git => ‘https://github.com/facebook/facebook-sdk-swift’
+	pod 'FacebookCore', :git => 'https://github.com/facebook/facebook-sdk-swift'
 
-	pod ‘FacebookLogin’, :git => ‘https://github.com/facebook/facebook-sdk-swift’
+	pod 'FacebookLogin', :git => 'https://github.com/facebook/facebook-sdk-swift'
 
-	pod ‘TwitterKit’
+	pod 'TwitterKit'
 end
+
